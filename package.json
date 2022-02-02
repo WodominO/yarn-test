@@ -1,0 +1,16 @@
+{
+  "name": "yarn-test-wodomino",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": "git@github.com:WodominO/yarn-test.git",
+  "author": "Dominik Wójcik <dominik.wojcik02@gmail.com>",
+  "license": "MIT"
+}
